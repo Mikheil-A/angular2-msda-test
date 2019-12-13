@@ -7,6 +7,8 @@ import {AngularMsdaModule} from 'angular-msda';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatSliderModule} from '@angular/material/slider';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     AngularMsdaModule,
 
     BrowserAnimationsModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
