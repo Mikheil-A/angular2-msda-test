@@ -6,6 +6,8 @@ import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSliderModule} from '@angular/material/slider';
+import {MatInputModule} from '@angular/material/input';
+import {MatButtonModule} from '@angular/material/button';
 
 import {AngularMsdaModule} from 'angular-msda';
 
@@ -22,6 +24,9 @@ import {AngularMsdaModule} from 'angular-msda';
 
     BrowserAnimationsModule,
     MatCheckboxModule,
+    MatInputModule,
+    MatButtonModule,
+
     MatSliderModule
   ],
   providers: [],
